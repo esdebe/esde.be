@@ -1,0 +1,27 @@
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-areas:
+    'buttons'
+    'content'
+    'footer';
+}
+.buttons {
+  grid-area: buttons;
+}
+.content {
+  grid-area: content;
+  width: 300px;
+  height: 200px;
+  background: yellow;
+  margin: auto;
+  display: grid;
+  align-items: center;
+  border-radius: 10px;
+}
+.footer {
+  grid-area: footer;
+}
